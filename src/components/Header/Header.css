@@ -36,3 +36,27 @@
     }
     
 }
+
+.menu-icon {
+    display: none;
+    background-color: var(--appColor);
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bars-icon {
+    width: 2rem;
+    height: 2rem;
+}
+@media screen and (max-width: 768px) {
+    .menu-icon {
+        display: flex;
+        /* align-items: center; */
+        /* justify-content: center; */
+        position: fixed;
+        top: 1rem;
+        right: 2rem;
+        z-index: 100;
+    }
+}

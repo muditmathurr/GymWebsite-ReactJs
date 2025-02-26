@@ -8,7 +8,7 @@ const Join = () => {
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_mudit', 'template_mudit', form.current, '-Kxp5JUU-pahNBrZx')
+        emailjs.sendForm('mudit_service', 'template_mudit', form.current, '-Kxp5JUU-pahNBrZx')
           .then((result) => {
               console.log(result.text);
           }, (error) => {
